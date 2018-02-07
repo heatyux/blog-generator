@@ -12,7 +12,7 @@ tags:
 
 ​	第一步是在github建立新的仓库: heatyux.github.io，步骤写的是**空的仓库**，我因为习惯了直接初始化仓库，建立了.git、md等，这是错误的，这也导致了和后面的步骤冲突了
 
-​	接着是要使用npm包安装hexo手脚架，因为我这个ubuntu系统并没有nodejs，所以是先要安装nodejs。因为要使用命令行安装，目前我对于cl掌握不够，只能google“ubuntu 16.04 安装 nodejs”，找到了[[Ubuntu16.04安装最新版nodejs](https://www.jianshu.com/p/2b24cd430a7d)]，这个步骤很详细，我之前更换了清华大学软件源，所以只需要前面3个步骤就安装好了nodejs。在普通用户下似乎并不能安装这个npm包：![npm-hexo-err](.\记录搭建Hexo的问题修订\npm-hexo-err.png)
+​	接着是要使用npm包安装hexo手脚架，因为我这个ubuntu系统并没有nodejs，所以是先要安装nodejs。因为要使用命令行安装，目前我对于cl掌握不够，只能google“ubuntu 16.04 安装 nodejs”，找到了[[Ubuntu16.04安装最新版nodejs](https://www.jianshu.com/p/2b24cd430a7d)]，这个步骤很详细，我之前更换了清华大学软件源，所以只需要前面3个步骤就安装好了nodejs。在普通用户下似乎并不能安装这个npm包：[npm-hexo-err(.\记录搭建Hexo的问题修订\npm-hexo-err.png)]
 
 遇到错误怎么办？直接放弃了。当然不行，有困难找google啊，所以又继续在google寻求答案，终于找到了在命令前面加`sudo` 也就是让管理群组来安装即可:
 
